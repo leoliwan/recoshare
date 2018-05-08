@@ -1,0 +1,299 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+// Body
+$body-bg: #f5f8fa;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+/*
+===========================================
+Custom Colors
+===========================================
+*/
+$primary-color: #5A95F5; //light blue
+$secondary-color: #45526E; // dark gray
+$default-color: #30CFC0; // dark green
+$success-color: #00E25B; // light green
+$info-color: #4ABDE8; // sky blue
+$warning-color: #FF941A;//light yellow
+$danger-color: #FF4F5E; // light red
+
+$primary-overlay: rgba(62, 50, 166, 0.5);
+$dark-overlay: rgba(0, 0, 0, 0.6);
+$purple-overlay: rgba(202, 129, 216, 0.5);
+
+/*
+==========================================
+BACKGROUNDS
+==========================================
+*/
+.bg--primary {
+    background-color: $primary-color !important;
+}
+.bg--secondary {
+    background-color: $secondary-color !important;
+}
+.bg--default {
+    background-color: $default-color !important;
+}
+.bg--success {
+    background-color: $success-color !important;
+}
+.bg--warning {
+    background-color: $warning-color !important;
+}
+.bg--info {
+    background-color: $info-color !important;
+}
+
+    
+/*
+==========================================
+BUTTONS
+==========================================
+*/
+.btn {
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4) !important; 
+    color: #fff;
+}
+.btn:hover {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6) !important; 
+}
+.btn--primary {
+    background-color: $primary-color !important;   
+}
+.btn--primary:hover {
+    background-color: #2c75eb !important;  
+}
+.btn--secondary {
+    background-color: $secondary-color !important;
+}
+.btn--secondary:hover {
+    background-color: #2f3748 !important;
+}
+.btn--default {
+    background-color: $default-color !important;
+}
+.btn--default:hover {
+    background-color: #4bbeb3 !important;
+}
+.btn--success {
+    background-color: $success-color !important;
+}
+.btn--success:hover {
+    background-color: #0ec156 !important;
+}
+.btn--info {
+    background-color: $info-color !important;
+}
+.btn--info:hover {
+    background-color: #39a7d0 !important;
+}
+.btn--warning {
+    background-color: $warning-color !important;
+}
+.btn--warning:hover {
+    background-color: #e28114 !important;
+}
+.btn--danger {
+    background-color: $danger-color !important;
+}
+.btn--danger:hover {
+    background-color: #d44551 !important;
+}
+
+/*
+==========================================
+Custom Typhography
+==========================================
+*/
+h1,h2,h3,h4,h5 {
+    font-weight: 200;
+}
+p {
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.q-and-a p {
+    line-height: 140%;
+}
+
+// Brand Logo
+.reco {
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+
+
+// Login Background
+#login_bg {
+    background: url('/images/chart.jpeg') no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#login_bg .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 4em;
+    left: 0;
+    width: 100%;
+    min-height: 100vh; }
+.container-form {
+    border:1px solid #30CFC0;
+    padding: 50px 60px;
+    margin-top: 20vh;
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(74,189,232,0.69);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(74,189,232,0.69);
+    box-shadow: 0px 0px 3px 2px rgba(74,189,232,0.69);
+}
+
+.hero-section {
+    background: url('/images/chart.jpeg') no-repeat;
+    width: 100%;
+    height: 355px;
+}
+
+// Search Form
+.icon {
+    color: #fff;
+    font-size: 40px;
+}
+
+.search-form, .search-input {
+    position: relative;
+}
+.search-inputs {
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    right: 15%;
+}
+.search-form input[type="text"]
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid $info-color;
+    padding: 18px;
+    padding-right: 144px;
+    box-sizing: border-box;
+}
+.search-form input[type="submit"]
+{
+    width: 134px;
+    height: 32px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-form input[type="submit"]:hover
+{
+    background-color: $primary-color;
+}
+
+//Post Reco Button
+.post-reco {
+    position: relative;
+}
+.post-reco a {
+    width: 70%;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    position: absolute;
+    right: 15%;
+}
+
+// WELCOME PAGE
+#home-section {
+    background: url('/images/welcome-bg.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 630px; }
+    #home-section .dark-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 69px;
+      left: 0;
+      width: 100%;
+      min-height: 630px; }
+    #home-section .home-inner {
+      padding-top: 85px; }
+    // #home-section .card-form {
+    //   opacity: 0.8; }
+    #home-section .fa {
+      color: #008ed6;
+      background: #fff;
+      padding: 4px;
+      border-radius: 5px;
+      font-size: 30px; }
+
+#explore-head-section {
+    background: #fff;
+}
+#explore-head-section p, #explore-head-section h2 {
+    color: $default-color;
+}
+
+#explore-head-section a {
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        height: 626px;
+    }
+}
+
+// Footer
+#main-footer ul {
+    list-style: none;
+}
+#main-footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+
+#main-footer ul li a:hover {
+    color: $danger-color;
+}
+
+.navbar-social ul li i {
+    font-size: 1.5em;
+}
+
+// Sidebar
+.stock-profit .form-control {
+    padding: 0.300rem 0.60rem !important;
+}
+  
